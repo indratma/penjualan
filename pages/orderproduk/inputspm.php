@@ -171,7 +171,7 @@ session_start()
                     <div class="ibox float-e-margins">
 					<div class="ibox-title" align="right">
 						<h5>Form Tambah SPM</h5>
-							<button type="button" class="btn btn-success" onClick="window.location='?mod=daftarspm'">
+							<button type="button" class="btn btn-success dim" onClick="window.location='?mod=daftarspm'">
 							<i class="fa fa-list"></i>&nbsp; Daftar SPM</button>
                         </div>
                         <div class="ibox-content">
@@ -220,11 +220,7 @@ session_start()
 							</div>
 						</div>							
 						<div class="box-footer text-right" >
-							<button type="button"  onClick="window.print();" class="btn btn-success"><i class="fa fa-print"></i> Print
-							  </button>
-							<button type="button" class="btn btn-default" onClick="window.location='?mod=daftarspm'">
-								<i class="fa fa-dot-circle-o"></i>&nbsp; Lihat Daftar SPM</button>
-							<button type="button" id="btnconfirm" class="btn btn-primary">
+							<button type="button" id="btnconfirm" class="btn btn-primary  dim btn-outline">
 								<i class="fa fa-save (alias)"></i>&nbsp; Simpan</button>							
 						</div>
 						</div>						
