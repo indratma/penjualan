@@ -1,0 +1,30 @@
+/* Don't display when printing */
+@media print {
+  .no-print {
+    display: none;
+  }
+  .left-side,
+  .header,
+  .content-header {
+    display: none;
+  }
+  .right-side {
+    margin: 0;
+  }
+}
+.tables > thead > tr > th {
+  border-bottom: 1px solid #DDDDDD;
+  vertical-align: bottom;
+}
+.tables > thead > tr > th,
+.tables > tbody > tr > th,
+.tables > tfoot > tr > th,
+.tables > thead > tr > td,
+.tables > tbody > tr > td,
+.tables > tfoot > tr > td {
+  border-top: 1px solid #e7eaec;
+  line-height: 1.42857;
+  padding: 8px;
+  vertical-align: top;
+}
+
